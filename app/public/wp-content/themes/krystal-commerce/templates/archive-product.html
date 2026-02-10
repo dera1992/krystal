@@ -1,0 +1,39 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"},"style":{"spacing":{"padding":{"top":"1.5rem","bottom":"3rem"}}}} -->
+<main class="wp-block-group" style="padding-top:1.5rem;padding-bottom:3rem"><!-- wp:woocommerce/store-notices /-->
+
+<!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between","verticalAlignment":"center"}} -->
+<div class="wp-block-group alignwide"><!-- wp:query-title {"type":"archive"} /-->
+
+<!-- wp:woocommerce/catalog-sorting /--></div>
+<!-- /wp:group -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"25%","className":"kc-shop-sidebar"} -->
+<div class="wp-block-column kc-shop-sidebar" style="flex-basis:25%"><!-- wp:woocommerce/product-filters /--></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"75%"} -->
+<div class="wp-block-column" style="flex-basis:75%"><!-- wp:woocommerce/product-collection {"query":{"woocommerceAttributes":[],"taxQuery":[],"postType":"product","perPage":12,"pages":0,"offset":0,"order":"desc","orderBy":"date"},"displayLayout":{"type":"flex","columns":3},"collection":"woocommerce/product-collection/archive"} -->
+<div class="wp-block-woocommerce-product-collection"><!-- wp:woocommerce/product-template -->
+<!-- wp:group {"className":"kc-product-card","style":{"spacing":{"blockGap":"0.75rem"}}} -->
+<div class="wp-block-group kc-product-card"><!-- wp:woocommerce/product-image {"imageSizing":"thumbnail"} /-->
+<!-- wp:woocommerce/product-title {"isLink":true,"fontSize":"m"} /-->
+<!-- wp:woocommerce/product-rating /-->
+<!-- wp:woocommerce/product-price /-->
+<!-- wp:woocommerce/product-button {"text":"Quick add"} /--></div>
+<!-- /wp:group -->
+<!-- /wp:woocommerce/product-template -->
+
+<!-- wp:query-pagination -->
+<!-- wp:query-pagination-previous /-->
+<!-- wp:query-pagination-numbers /-->
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:woocommerce/product-collection --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
