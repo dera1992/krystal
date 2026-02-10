@@ -27,7 +27,7 @@ wp theme activate krystal-commerce --path=/var/www/html
 ## Suggested Page Structure
 - Home (`front-page.html` + patterns)
 - Shop (`archive-product.html`)
-- Category (inherits Woo archive)
+- Category (`taxonomy-product_cat.html`)
 - Product (`single-product.html`)
 - Cart (`page-cart.html`)
 - Checkout (`page-checkout.html`)
@@ -88,3 +88,7 @@ wp theme activate krystal-commerce --path=/var/www/html
 - Merchandising: use categories, featured products, and homepage patterns.
 - Orders: WooCommerce → Orders to process/refund.
 - Content updates: Appearance → Editor for header/footer/templates/patterns.
+
+
+## Optional Wishlist
+- If wishlist is required, use a lightweight plugin (e.g. TI WooCommerce Wishlist) and keep scripts disabled on non-store pages when supported.
