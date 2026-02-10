@@ -33,7 +33,7 @@ add_action(
 			$theme->get( 'Version' )
 		);
 
-		if ( is_product() ) {
+		if ( function_exists( 'is_product' ) && is_product() ) {
 			wp_enqueue_script(
 				'krystal-commerce-store',
 				get_theme_file_uri( 'assets/js/store.js' ),

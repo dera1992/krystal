@@ -43,7 +43,7 @@ add_filter(
 add_action(
 	'wp_footer',
 	static function () {
-		if ( ! is_product() ) {
+		if ( ! function_exists( 'is_product' ) || ! is_product() || ! function_exists( 'wc_get_product' ) ) {
 			return;
 		}
 		$product = wc_get_product( get_the_ID() );
