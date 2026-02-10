@@ -114,3 +114,49 @@
     padding-bottom: 68px;
   }
 }
+
+
+.kc-card {
+  padding: 1rem;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+}
+
+.kc-contact-form {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.kc-contact-form input,
+.kc-contact-form textarea {
+  min-height: 44px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 0.65rem 0.8rem;
+  font: inherit;
+}
+
+.kc-contact-form textarea {
+  min-height: 140px;
+}
+
+.kc-contact-form button {
+  justify-self: start;
+  min-height: 44px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(120deg, #2563eb, #14b8a6);
+  color: #fff;
+  padding: 0 1rem;
+  font-weight: 600;
+}
+
+.wc-block-components-product-title,
+.wp-block-woocommerce-product-title {
+  min-height: 2.8em;
+}
+
+.wc-block-components-product-rating {
+  min-height: 22px;
+}

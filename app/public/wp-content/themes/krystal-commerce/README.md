@@ -34,6 +34,12 @@ wp theme activate krystal-commerce --path=/var/www/html
 - My Account (`page-my-account.html`)
 - About, Contact, FAQ, Shipping & Returns, Privacy, Terms (`page.html`)
 
+
+## Auto Page Provisioning
+On theme activation, required pages are automatically created if missing:
+Home, Shop, Cart, Checkout, My Account, About, Contact, FAQ, Shipping & Returns, Privacy Policy, Terms & Conditions.
+The theme also sets Home as static front page and maps WooCommerce page assignments when WooCommerce is active.
+
 ## WooCommerce Configuration Steps
 1. **General**: set store address, currency, units.
 2. **Products**: configure categories, attributes, variations, inventory policies.

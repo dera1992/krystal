@@ -21,6 +21,7 @@ app/public/wp-content/themes/krystal-commerce/
 │   ├── css/theme.css
 │   └── js/store.js
 ├── inc/
+│   ├── page-setup.php
 │   ├── theme-setup.php
 │   └── woocommerce.php
 ├── parts/
@@ -29,19 +30,29 @@ app/public/wp-content/themes/krystal-commerce/
 │   ├── footer.html
 │   └── header.html
 ├── patterns/
+│   ├── about-story.php
+│   ├── contact-layout.php
+│   ├── faq-content.php
 │   ├── home-featured-categories.php
 │   ├── home-featured-products.php
 │   ├── home-hero.php
 │   ├── home-newsletter.php
 │   ├── home-testimonials.php
-│   └── home-usp-row.php
+│   ├── home-usp-row.php
+│   └── shipping-returns-content.php
 ├── templates/
 │   ├── archive-product.html
 │   ├── front-page.html
 │   ├── index.html
+│   ├── page-about.html
 │   ├── page-cart.html
 │   ├── page-checkout.html
+│   ├── page-contact.html
+│   ├── page-faq.html
 │   ├── page-my-account.html
+│   ├── page-privacy-policy.html
+│   ├── page-shipping-returns.html
+│   ├── page-terms-and-conditions.html
 │   ├── page.html
 │   ├── single-product.html
 │   ├── single.html
@@ -99,6 +110,9 @@ Create/verify these pages:
 Shop category pages use `taxonomy-product_cat.html`; product pages use `single-product.html`.
 
 ## 6) Theme Configuration Steps
+
+- Automatic page provisioning runs once on theme activation via `inc/page-setup.php` to create and map required pages.
+
 
 1. **Navigation**:
    - Add product categories to primary nav as dropdown items.
