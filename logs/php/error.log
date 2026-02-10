@@ -1,0 +1,32 @@
+[10-Feb-2026 05:15:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_product() in C:\Users\Chidera\Local Sites\krystal\app\public\wp-content\themes\krystal-commerce\inc\theme-setup.php:36
+Stack trace:
+#0 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\class-wp-hook.php(341): {closure}('')
+#1 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#3 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\script-loader.php(2311): do_action('wp_enqueue_scri...')
+#4 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\class-wp-hook.php(341): wp_enqueue_scripts('')
+#5 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#7 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\general-template.php(3197): do_action('wp_head')
+#8 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\template-canvas.php(17): wp_head()
+#9 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\template-loader.php(125): include('C:\\Users\\Chider...')
+#10 C:\Users\Chidera\Local Sites\krystal\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Chider...')
+#11 C:\Users\Chidera\Local Sites\krystal\app\public\index.php(17): require('C:\\Users\\Chider...')
+#12 {main}
+  thrown in C:\Users\Chidera\Local Sites\krystal\app\public\wp-content\themes\krystal-commerce\inc\theme-setup.php on line 36
+[10-Feb-2026 05:16:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_product() in C:\Users\Chidera\Local Sites\krystal\app\public\wp-content\themes\krystal-commerce\inc\theme-setup.php:36
+Stack trace:
+#0 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\class-wp-hook.php(341): {closure}('')
+#1 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#3 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\script-loader.php(2311): do_action('wp_enqueue_scri...')
+#4 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\class-wp-hook.php(341): wp_enqueue_scripts('')
+#5 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#7 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\general-template.php(3197): do_action('wp_head')
+#8 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\template-canvas.php(17): wp_head()
+#9 C:\Users\Chidera\Local Sites\krystal\app\public\wp-includes\template-loader.php(125): include('C:\\Users\\Chider...')
+#10 C:\Users\Chidera\Local Sites\krystal\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Chider...')
+#11 C:\Users\Chidera\Local Sites\krystal\app\public\index.php(17): require('C:\\Users\\Chider...')
+#12 {main}
+  thrown in C:\Users\Chidera\Local Sites\krystal\app\public\wp-content\themes\krystal-commerce\inc\theme-setup.php on line 36
